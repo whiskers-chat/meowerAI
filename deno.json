@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts"
+  },
+  "imports": {
+    "@meower/api-client": "jsr:@meower/api-client@^1.0.1",
+    "@mumulhl/duckduckgo-ai-chat": "jsr:@mumulhl/duckduckgo-ai-chat@^3.0.0",
+    "@std/assert": "jsr:@std/assert@1"
+  }
+}

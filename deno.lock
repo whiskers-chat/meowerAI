@@ -1,0 +1,54 @@
+{
+  "version": "4",
+  "specifiers": {
+    "jsr:@denosaurs/event@2.0.2": "2.0.2",
+    "jsr:@lukeed/fetch-event-stream@~0.1.5": "0.1.5",
+    "jsr:@meower/api-client@^1.0.1": "1.0.1",
+    "jsr:@mumulhl/duckduckgo-ai-chat@3": "3.0.0",
+    "jsr:@std/assert@1": "1.0.6",
+    "jsr:@std/internal@^1.0.4": "1.0.4",
+    "jsr:@std/streams@0.221": "0.221.0"
+  },
+  "jsr": {
+    "@denosaurs/event@2.0.2": {
+      "integrity": "3310ba1a9e94dd60ccb09c6084fc818cc1cd50e543c56ef0c6199f1b89073392"
+    },
+    "@lukeed/fetch-event-stream@0.1.5": {
+      "integrity": "50fe145b95e6ead49584c4f00dbb266c34a572e2ac97a924463f567887cd99ce",
+      "dependencies": [
+        "jsr:@std/streams"
+      ]
+    },
+    "@meower/api-client@1.0.1": {
+      "integrity": "59a2c381c32968a874ace8e0e85cdf1e262cdce5db4fccfbb6d9e4af411a9bc0",
+      "dependencies": [
+        "jsr:@denosaurs/event"
+      ]
+    },
+    "@mumulhl/duckduckgo-ai-chat@3.0.0": {
+      "integrity": "855cc7377df15133e767d0b1aa055b6d8e16251fa3c3d8a4083edf2f722d4697",
+      "dependencies": [
+        "jsr:@lukeed/fetch-event-stream"
+      ]
+    },
+    "@std/assert@1.0.6": {
+      "integrity": "1904c05806a25d94fe791d6d883b685c9e2dcd60e4f9fc30f4fc5cf010c72207",
+      "dependencies": [
+        "jsr:@std/internal"
+      ]
+    },
+    "@std/internal@1.0.4": {
+      "integrity": "62e8e4911527e5e4f307741a795c0b0a9e6958d0b3790716ae71ce085f755422"
+    },
+    "@std/streams@0.221.0": {
+      "integrity": "47f2f74634b47449277c0ee79fe878da4424b66bd8975c032e3afdca88986e61"
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@meower/api-client@^1.0.1",
+      "jsr:@mumulhl/duckduckgo-ai-chat@3",
+      "jsr:@std/assert@1"
+    ]
+  }
+}
