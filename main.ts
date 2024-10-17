@@ -18,6 +18,8 @@ if (Deno.env.get("hburl") !== undefined) {
   hburl = Deno.env.get("hburl")!;
 }
 
+console.log(`CLIENT: Trying login as ${user}`);
+
 const meower = await meow.client.login({
   api_url: "https://api.meower.org",
   socket_url: "wss://server.meower.org",
