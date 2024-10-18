@@ -1,13 +1,11 @@
-_site
-_cache
+/.idea/
+/.vscode/
 
-.idea
-
-node_modules
-
-reference_gen/gen
-reference_gen/node_modules
-reference_gen/types
+/node_modules
 
 .env
+.idea
 .DS_Store
+*.orig
+*.pyc
+*.swp
