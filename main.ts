@@ -60,7 +60,7 @@ async function updateQuote(api: meow.client, newQuote: string) {
 
 updateQuote(
   meower,
-  "Bot is online!\nRun ```@gpt what can you do```, to see what I can do!\nrun by @Blahaj, if you have any issues, contact support@whiskers.chat",
+  "Bot is online!\nRun ```@gpt what can you do```, to see what I can do!\nrun by @Blahaj, if you have any issues, contact support@whiskers.chat.\n> In this US election our civil rights are on the line, if you are eligible, make a plan to vote at https://iwillvote.com/.",
 );
 
 meower.socket.on("create_message", async (post) => {
